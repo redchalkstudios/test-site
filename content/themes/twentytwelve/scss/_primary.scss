@@ -1,0 +1,7 @@
+body{
+  background-color:red;
+
+  @include sb-media(61em){
+    background-color: blue;
+  }
+}
